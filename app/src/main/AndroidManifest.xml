@@ -16,6 +16,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity android:name=".ui.splash.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar"
             >
 
             <intent-filter>
@@ -39,7 +40,7 @@
 
         <activity
             android:name=".ui.aboutus.AboutUsActivity"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:label="@string/title_aboutus"
            />
 
     </application>

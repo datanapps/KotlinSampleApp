@@ -48,6 +48,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
           <value>
             <set />
@@ -88,7 +93,107 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../OpenWeather/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/data/content/cms/source/remote/mapper/LivestreamMapper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/domain/model/Content.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/ui/_Fragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/ui/articledetails/ArticleDetailsFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/ui/bookmarks/BookmarksFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/ui/episode/EpisodeDetailsFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/ui/livebulletin/LiveBulletinFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/ui/news/latestnews/LatestNewsFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/ui/news/topnews/TopNewsFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/ui/programs/ProgramDetailsFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/ui/search/SearchFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/ui/section/category/subsection/allsubcategories/AllSubCategoriesSectionFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/ui/section/category/subsection/subcategory/SubCategorySectionFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/ui/section/vodcast/subsection/AllVideoArticlesSectionFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/ui/section/vodcast/subsection/AllVodcastsSectionFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/ui/section/vodcast/subsection/VideoArticleCategorySectionFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/ui/specialreport/SpecialReportDetailsFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/ui/tag/TagFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/Gr8WorldAndroid/app/src/main/java/com/mediacorp/sg/channel8news/ui/vodcastdetails/VodcastDetailsFragment.kt">
           <value>
             <set />
           </value>
