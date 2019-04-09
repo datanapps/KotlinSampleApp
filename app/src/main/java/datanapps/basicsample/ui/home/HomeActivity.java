@@ -2,6 +2,7 @@ package datanapps.basicsample.ui.home;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.view.View;
@@ -17,9 +18,15 @@ import android.view.MenuItem;
 import datanapps.basicsample.R;
 import datanapps.basicsample.ui.aboutus.AboutUsActivity;
 import datanapps.basicsample.ui.login.LoginActivity;
+import datanapps.basicsample.ui.splash.SplashActivity;
+import datanapps.basicsample.utils.DNASnackBar;
+import datanapps.basicsample.utils.Utils;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    boolean doubleBackToExitPressedOnce = false;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,12 +35,11 @@ public class HomeActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton fab =  findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Utils.sendMail(HomeActivity.this, getString(R.string.contact_us));
             }
         });
 
@@ -53,8 +59,29 @@ public class HomeActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            onBackDoubleClick();
         }
+
+    }
+
+
+
+    public void onBackDoubleClick() {
+        if (doubleBackToExitPressedOnce) {
+            super.onBackPressed();
+            return;
+        }
+
+        this.doubleBackToExitPressedOnce = true;
+        DNASnackBar.show(this, "Please click BACK again to exit");
+
+        new Handler().postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                doubleBackToExitPressedOnce=false;
+            }
+        }, 2000);
     }
 
     @Override
@@ -72,7 +99,9 @@ public class HomeActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_logout) {
+            startActivity(new Intent(HomeActivity.this, LoginActivity.class));
+            finish();
             return true;
         }
 
@@ -93,9 +122,12 @@ public class HomeActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_manage) {
 
+
         } else if (id == R.id.nav_share) {
+            Utils.shareAppDetail(this);
 
         } else if (id == R.id.nav_send) {
+            Utils.sendMail(this, getString(R.string.contact_us));
 
         } else if (id == R.id.nav_about_us) {
             startActivity(new Intent(HomeActivity.this, AboutUsActivity.class));
