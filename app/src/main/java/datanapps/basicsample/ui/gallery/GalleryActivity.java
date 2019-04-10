@@ -57,7 +57,7 @@ public class GalleryActivity extends BaseActivity {
 
             @Override
             public void onPageSelected(int i) {
-                DNASnackBar.show(GalleryActivity.this, "selected page"+(i+1));
+                DNASnackBar.show(GalleryActivity.this, "Selected Page  : "+(i+1));
             }
 
             @Override
