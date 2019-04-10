@@ -8,6 +8,8 @@ import android.os.Bundle;
 import datanapps.basicsample.R;
 import datanapps.basicsample.ui.home.HomeActivity;
 import datanapps.basicsample.ui.login.LoginActivity;
+import datanapps.basicsample.utils.Constants;
+import datanapps.basicsample.utils.DNASharedPreferenceUtils;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -24,7 +26,13 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashActivity.this, LoginActivity.class));
+
+                if(DNASharedPreferenceUtils.getBoolean(Constants.IS_USER_LOGIN)) {
+                    startActivity(new Intent(SplashActivity.this, HomeActivity.class));
+                }
+                else{
+                    startActivity(new Intent(SplashActivity.this, LoginActivity.class));
+                }
                 finish();
             }
         }, 2000);

@@ -45,7 +45,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MyViewHold
         holder.year.setText(movie.getYear());
         Glide
                 .with(context)
-                .load("https://media.wired.com/photos/59323a795c4fbd732b55153a/master/w_1000,c_limit/marvel-movies-inline.jpg")
+                .load(movie.getImgUrl())
                 .apply(new RequestOptions().centerCrop())
                 .into( holder.movieImage);
         holder.imgShare.setOnClickListener(new View.OnClickListener() {

@@ -35,6 +35,8 @@ import java.util.List;
 
 import datanapps.basicsample.R;
 import datanapps.basicsample.ui.home.HomeActivity;
+import datanapps.basicsample.utils.Constants;
+import datanapps.basicsample.utils.DNASharedPreferenceUtils;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
@@ -336,6 +338,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             showProgress(false);
 
             if (success) {
+                DNASharedPreferenceUtils.saveBoolean(Constants.IS_USER_LOGIN, true);
                 startActivity(new Intent(LoginActivity.this, HomeActivity.class));
                 finish();
             } else {
