@@ -33,7 +33,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/BaseActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/BasicSampleApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/BasicSampleApplication.kt">
           <value>
             <set />
           </value>
@@ -43,7 +53,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/aboutus/AboutUsActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/gallery/GalleryActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/gallery/GalleryActivity.kt">
           <value>
             <set />
           </value>
@@ -53,7 +73,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/gallery/GalleryViewPagerAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/home/HomeActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/home/HomeActivity.kt">
           <value>
             <set />
           </value>
@@ -68,7 +98,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/home/Movie.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/home/MoviesAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/home/MoviesAdapter.kt">
           <value>
             <set />
           </value>
@@ -78,7 +118,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/login/LoginActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/splash/SplashActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/splash/SplashActivity.kt">
           <value>
             <set />
           </value>
