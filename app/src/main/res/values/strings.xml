@@ -21,6 +21,9 @@
         completions."
     </string>
 
+    <!-- HOME -->
+    <string name="title_movies_list">Movies</string>
+
 
     <!-- ABOUT US -->
     <string name="title_aboutus">AboutUs</string>
