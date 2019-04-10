@@ -34,6 +34,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import datanapps.basicsample.R;
+import datanapps.basicsample.ui.BaseActivity;
 import datanapps.basicsample.ui.home.HomeActivity;
 import datanapps.basicsample.utils.Constants;
 import datanapps.basicsample.utils.DNASharedPreferenceUtils;
@@ -43,7 +44,7 @@ import static android.Manifest.permission.READ_CONTACTS;
 /**
  * A login screen that offers login via email/password.
  */
-public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
+public class LoginActivity extends BaseActivity implements LoaderCallbacks<Cursor> {
 
     /**
      * Id to identity READ_CONTACTS permission request.

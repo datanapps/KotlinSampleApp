@@ -28,12 +28,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/BaseActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/BasicSampleApplication.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/aboutus/AboutUsActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/gallery/GalleryActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/basicsample/ui/gallery/GalleryViewPagerAdapter.java">
           <value>
             <set />
           </value>
@@ -89,6 +104,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_aboutus.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_gallery.xml">
           <value>
             <set />
           </value>

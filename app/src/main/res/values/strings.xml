@@ -23,6 +23,8 @@
 
     <!-- HOME -->
     <string name="title_movies_list">Movies</string>
+    <!-- HOME -->
+    <string name="title_gallery">Gallery</string>
 
 
     <!-- ABOUT US -->

@@ -51,7 +51,6 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MyViewHold
         holder.imgShare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Utils.shareAppDetail(context);
             }
         });

@@ -6,12 +6,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import datanapps.basicsample.R;
+import datanapps.basicsample.ui.BaseActivity;
 import datanapps.basicsample.ui.home.HomeActivity;
 import datanapps.basicsample.ui.login.LoginActivity;
 import datanapps.basicsample.utils.Constants;
 import datanapps.basicsample.utils.DNASharedPreferenceUtils;
 
-public class SplashActivity extends AppCompatActivity {
+public class SplashActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
