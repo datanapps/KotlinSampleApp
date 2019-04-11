@@ -1,11 +1,11 @@
-# BasicSampleApp
+# Kotlin Sample App / Kotlin Basic App
 
 
 [![See](https://img.youtube.com/vi/q6j2kA_TI90/0.jpg)](https://www.youtube.com/watch?v=q6j2kA_TI90)
 
 **This is KOTLIN Basic application which have common application flow and common screens. 
 This application can use to make other apps in KOTLIN because its have basic project structure.
-This apps have all common screens which is moslty use for others apps. **
+This apps have all common screens which is moslty use for others apps.**
 
 ## This app have:
 
