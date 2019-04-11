@@ -11,11 +11,15 @@ This apps have all common screens which is moslty use for others apps.
 
 ### Screens: 
 
-**1. Splash Screen
-**2. Login Screen
-**3. Home screens
-**4. About Us screen
-**5 Gallery Screen
+**1. Splash Screen**
+
+**2. Login Screen**
+
+**3. Home screens**
+
+**4. About Us screen**
+
+**5 Gallery Screen**
 
 ### Functionality :
 
