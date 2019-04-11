@@ -26,10 +26,15 @@ In this have basics functionality and usefull in common application development
 ### Functionality :
 
 **1. Login (login detail and validation message)**
+
 **2. Showing Snackbar messages**
+
 **3. SharedPreferences**
+
 **4. Logout**
+
 **5. Display all data in list at home screen**
+
 **6. Display all data in gallery**
 
 
@@ -38,7 +43,9 @@ Below have list of utils:
 ### Utils :
 
 **1. Utils (common methode to share images and send mail )**
+
 **2. Snackbar**
+
 **3. SharedPreferences**
 
 
