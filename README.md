@@ -7,17 +7,17 @@ This is KOTLIN Basic application which have common application flow and common s
 This application can use to make other apps in KOTLIN because its have basic project structure.
 This apps have all common screens which is moslty use for others apps.
 
-##This app have:
+## This app have:
 
-###Screens: 
+### Screens: 
 
-1. Splash Screen
-2. Login Screen
-3. Home screens
-4. About Us screen
-5 Gallery Screen
+**1. Splash Screen
+**2. Login Screen
+**3. Home screens
+**4. About Us screen
+**5 Gallery Screen
 
-###Functionality :
+### Functionality :
 
 1. Login (login detail and validation message)
 2. Showing Snackbar messages
