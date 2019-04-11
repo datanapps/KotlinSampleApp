@@ -3,9 +3,10 @@
 
 [![See](https://img.youtube.com/vi/q6j2kA_TI90/0.jpg)](https://www.youtube.com/watch?v=q6j2kA_TI90)
 
-This is KOTLIN Basic application which have common application flow and common screens. 
+**This is KOTLIN Basic application which have common application flow and common screens. 
 This application can use to make other apps in KOTLIN because its have basic project structure.
 This apps have all common screens which is moslty use for others apps.
+**
 
 ## This app have:
 
@@ -21,6 +22,8 @@ This apps have all common screens which is moslty use for others apps.
 
 **5 Gallery Screen**
 
+In this have basics functionality and usefull in common application development
+
 ### Functionality :
 
 1. Login (login detail and validation message)
@@ -29,5 +32,14 @@ This apps have all common screens which is moslty use for others apps.
 4. Logout
 5. Display all data in list at home screen
 6. Display all data in gallery
+
+
+Below have list of utils:
+
+### Utils :
+
+1. Utils (common methode to share images and send mail )
+2. Snackbar
+3. SharedPreferences 
 
 
