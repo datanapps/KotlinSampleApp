@@ -1,9 +1,8 @@
 package datanapps.basicsample.ui.splash
 
 import android.content.Intent
-import android.os.Handler
 import android.os.Bundle
-
+import android.os.Handler
 import datanapps.basicsample.R
 import datanapps.basicsample.ui.BaseActivity
 import datanapps.basicsample.ui.home.HomeActivity

@@ -1,19 +1,12 @@
 package datanapps.basicsample.ui.home
 
 import android.content.Context
-import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-
-import com.bumptech.glide.Glide
-import com.bumptech.glide.RequestBuilder
-import com.bumptech.glide.request.RequestOptions
-
 import datanapps.basicsample.R
-import datanapps.basicsample.utils.DNASnackBar
 import datanapps.basicsample.utils.Utils
 
 class MoviesAdapter(private val context: Context, private val moviesList: List<Movie>) : RecyclerView.Adapter<MoviesAdapter.MyViewHolder>() {
